@@ -16,3 +16,11 @@ function itFibo(n) {
   }
 }
 
+//recursive solution of fibonacci problem
+function recFibo(n) {
+  if (n < 2) {
+    return n;
+  } else {
+    return recFibo(n - 1) + recFibo(n - 2);
+  }
+}
